@@ -1,3 +1,6 @@
+Note: see https://github.com/pentium3/sys_reading/issues/131#issuecomment-965944777
+
+
 # SwitchML: Switch-Based Training Acceleration for Machine Learning
 
 SwitchML accelerates the Allreduce communication primitive commonly used by distributed Machine Learning frameworks. It uses a programmable switch dataplane to perform in-network computation, reducing the volume of exchanged data by aggregating vectors (e.g., model updates) from  multiple  workers  in  the  network.  It provides an end-host library that can be integrated with ML frameworks to provide an efficient solution that speeds up training for a number of real-world benchmark models.
